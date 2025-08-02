@@ -3,8 +3,8 @@ import numpy as np
 import joblib
 
 # Load model and scaler
-model = joblib.load(r'E:\Muqadas\university\projects\ML\Diabetes Prediction\SVM_model.pkl')
-scaler = joblib.load(r'E:\Muqadas\university\projects\ML\Diabetes Prediction\scaler.pkl')
+model = joblib.load('SVM_model.pkl')
+scaler = joblib.load('scaler.pkl')
 
 # Streamlit app title
 st.title("Diabetes Prediction App")
@@ -35,3 +35,4 @@ if st.button("Predict"):
         st.success(f"Prediction: {result}")
     except Exception as e:
         st.error(f"Error during prediction: {e}")
+
