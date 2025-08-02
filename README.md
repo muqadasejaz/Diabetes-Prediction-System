@@ -1,4 +1,4 @@
-# 🩺 Diabetes Prediction System
+ 🩺 Diabetes Prediction System
 
 The Diabetes Prediction System is a machine learning-powered tool designed to assist in the early detection of diabetes based on diagnostic medical parameters.
 
@@ -83,9 +83,22 @@ The Diabetes Prediction System is a machine learning-powered tool designed to as
 - Built using **Streamlit**.
 - Takes user inputs for 8 health metrics.
 - Predicts and displays whether the user is **Diabetic** or **Not Diabetic**.
+  
+<img width="758" height="562" alt="GUI" src="https://github.com/user-attachments/assets/6c5613bc-77cf-4718-ae16-4f74a1ea61ef" />
+
 - Can be launched locally with one command:
   ```bash
   streamlit run app.py
+
+ 
+
+  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## 🌐 Live Demo
+
+Click here to try the live app 👉 [Diabetes Prediction Web App](https://diabetes-prediction-system-ml.streamlit.app/)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
